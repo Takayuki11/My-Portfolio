@@ -14,7 +14,7 @@ header{
 .portfolio p{
     font-size: medium;
 }
-.content{
+.container-fluid{
     background-color: #f5f5f5;
 }
 .my-picture{
@@ -23,16 +23,46 @@ header{
 }
 
 
+.skills{
+    background-color: cadetblue;
+}
+.options p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px;
+}
+.content{
+    width: 85%;
+    height: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    overflow: scroll;
+}
+.content2{
+    line-height: 250px;
+}
 
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.icon{
+    font-size: 150px;
 
+}
 
 footer{
     background-color: #343a40;
     color: white;
+    padding-top: 8px;
 }
-footer h2{
+footer p{
     color: white;
-    margin: 0;
+    margin: 0 5px;
 }
 
 
