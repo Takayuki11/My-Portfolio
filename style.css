@@ -1,0 +1,53 @@
+header{
+    position: relative;
+}
+.portfolio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+.portfolio p{
+    font-size: medium;
+}
+.content{
+    background-color: #f5f5f5;
+}
+.my-picture{
+    width: 45%;
+    height: 45%;
+}
+
+
+
+
+
+footer{
+    background-color: #343a40;
+    color: white;
+}
+footer h2{
+    color: white;
+    margin: 0;
+}
+
+
+
+
+/* スマホ画面用のCSS */
+@media screen and (max-width:480px) { 
+    .portfolio { 
+        font-size: x-large;
+    }
+    .portfolio p{
+        font-size: xx-small;
+    }
+    .my-picture{
+        width: 50%;
+        height: 50%;
+    }
+}
