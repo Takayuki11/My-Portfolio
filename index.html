@@ -53,30 +53,59 @@
         <section class="skills pb-4">
             <div class="options d-flex justify-content-center">
                 <div class="border d-flex mt-3">
-                    <a class="border-right" href="#">Front-end</a>
-                    <a class="border-right" href="#">Back-end</a>
-                    <a href="#">Other</a>
+                    <p class="nav-skill border-right" id="front-btn">Front-end</p>
+                    <p class="nav-skill border-right" id="back-btn">Back-end</p>
+                    <p class="nav-skill" id="other-btn">Other</p>
                 </div>
             </div>
             <div class="content mt-4">
-                <div class="content2 d-flex justify-content-between">
-                    <div class="circle text-center">
-                        <i class="devicon-html5-plain-wordmark colored icon"></i>
+                <div class="content2 ">
+
+                    <div class="front-end each-skill d-none justify-content-between" id="front">
+                        <div class="">
+                            <i class="devicon-html5-plain-wordmark colored icon"></i>
+                        </div>
+                        <div class="">
+                            <i class="devicon-css3-plain-wordmark colored icon"></i>
+                        </div>
+                        <div class="">
+                            <i class="devicon-javascript-plain colored icon"></i>
+                        </div>
+                        <div class="">
+                            <i class="devicon-bootstrap-plain-wordmark colored icon"></i>
+                        </div>
+                        <div class="">
+                            <i class="devicon-jquery-plain-wordmark colored icon"></i>
+                        </div>
+                        <div class="">
+                            <i class="devicon-vuejs-plain-wordmark icon"></i>
+                        </div>
                     </div>
-                    <div class="circle text-center">
-                        <i class="devicon-css3-plain-wordmark colored icon"></i>
+
+                    <div class="back-end each-skill d-none justify-content-between" id="back">
+                        
+                        <i class="devicon-ruby-plain-wordmark colored icon"></i>
+                        
+                        <i class="devicon-rails-plain-wordmark colored icon"></i>
+                        
+                        <i class="devicon-python-plain-wordmark colored icon"></i>
+                        
+                        <i class="devicon-mysql-plain-wordmark colored icon"></i>
+
+                        <i class="devicon-postgresql-plain-wordmark colored icon"></i>
+
                     </div>
-                    <div class="circle text-center">
-                        <i class="devicon-javascript-plain colored icon"></i>
-                    </div>
-                    <div class="circle text-center">
-                        <i class="devicon-bootstrap-plain-wordmark colored icon"></i>
-                    </div>
-                    <div class="circle text-center">
-                        <i class="devicon-jquery-plain-wordmark colored icon"></i>
-                    </div>
-                    <div class="circle text-center">
-                        <i class="devicon-vuejs-plain-wordmark icon"></i>
+
+                    <div class="others each-skill d-none justify-content-between" id="others">
+                        
+                        <i class="devicon-git-plain-wordmark colored icon"></i>
+
+                        <i class="devicon-github-original-wordmark colored icon"></i>
+                        
+                        <i class="devicon-heroku-original-wordmark colored icon"></i>
+
+                        <i class="devicon-slack-plain-wordmark colored icon"></i>
+
                     </div>
                 </div>
             </div>
@@ -178,7 +207,7 @@
             <p class="nav-contact each-nav">Contact</p>
         </div>
         <div class="text-center mt-3">
-            <small>© 2020 Taka</small>
+            <small>© 2020 Taka. All Rights Reserved.</small>
         </div>
     </footer>
 

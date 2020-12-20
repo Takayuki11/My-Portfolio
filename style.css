@@ -1,3 +1,5 @@
+/* ここからheader */
+
 header{
     position: relative;
 }
@@ -14,14 +16,19 @@ header{
 .portfolio p{
     font-size: medium;
 }
+
 .container-fluid{
     background-color: #f5f5f5;
 }
+
+/* ここからIntro */
+
 .my-picture{
     width: 45%;
     height: 45%;
 }
 
+/* ここからskills */
 
 .skills{
     background-color: cadetblue;
@@ -43,55 +50,46 @@ header{
 .content2{
     line-height: 250px;
 }
-
-.circle{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    
-}
 .icon{
     font-size: 150px;
-
 }
-
 
 /* ここからContact */
 
-.balloon {
+.balloon{
     margin-bottom: 2em;
     position: relative;
-    }
-    .balloon:before,.balloon:after {
+}
+.balloon:before,.balloon:after{
     clear: both;
     content: "";
     display: block;
-    }
-    .balloon figure {
+}
+.balloon figure{
     width: 100px;
     height: 100px;
-    }
-    .balloon-image-left {
+}
+.balloon-image-left{
     float: left;
     margin-right: 20px;
-    }
-    .balloon-image-right {
+}
+.balloon-image-right{
     float: right;
     margin-left: 20px;
-    }
-    .balloon figure img {
+}
+    .balloon figure img{
     width: 100%;
     height: 100%;
     border: solid 3px #d7ebfe;
     border-radius: 50%;
     margin: 0;
-    }
-    .balloon-image-description {
+}
+    .balloon-image-description{
     padding: 5px 0 0;
     font-size: 10px;
     text-align: center;
-    }
-    .balloon-text-right,.balloon-text-left {
+}
+.balloon-text-right,.balloon-text-left{
     position: relative;
     padding: 10px;
     border: 1px solid;
@@ -100,63 +98,69 @@ header{
     max-width: calc(100% - 120px);
     display: inline-block;
     background: #d7ebfe;
-    }
-    .balloon-text-right {
+}
+.balloon-text-right{
     border-color: #aaa;
-    }
-    .balloon-text-left {
+}
+.balloon-text-left{
     border-color: #aaa;
-    }
-    .balloon-text-right {
+}
+.balloon-text-right{
     float: left;
-    }
-    .balloon-text-left {
+}
+.balloon-text-left{
     float: right;
-    }
-    .balloon p {
+}
+.balloon p{
     margin: 0 0 20px;
-    }
-    .balloon p:last-child {
+}
+.balloon p:last-child{
     margin-bottom: 0;
-    }
-    /* 三角部分 */
-    .balloon-text-right:before {
+}
+
+/* 三角部分 */
+
+.balloon-text-right:before{
     position: absolute;
     content: '';
     border: 10px solid transparent;
     border-right: 10px solid #aaa;
     top: 15px;
     left: -20px;
-    }
-    .balloon-text-right:after {
+}
+.balloon-text-right:after{
     position: absolute;
     content: '';
     border: 10px solid transparent;
     border-right: 10px solid #d7ebfe;
     top: 15px;
     left: -19px;
-    }
-    .balloon-text-left:before {
+}
+.balloon-text-left:before{
     position: absolute;
     content: '';
     border: 10px solid transparent;
     border-left: 10px solid #aaa;
     top: 15px;
     right: -20px;
-    }
-    .balloon-text-left:after {
+}
+.balloon-text-left:after{
     position: absolute;
     content: '';
     border: 10px solid transparent;
     border-left: 10px solid #d7ebfe;
     top: 15px;
     right: -19px;
-    }
+}
 
-    
+.twitter{
+    font-size: 30px;
+}
+.instagram{
+    font-size: 30px;
+}
 
-
-
+    /* ここからfooter */
 
 footer{
     background-color: #343a40;
@@ -171,13 +175,7 @@ footer p{
     margin: 0 5px;
 }
 
-.twitter{
-    font-size: 30px;
-}
-.instagram{
-    font-size: 30px;
-}
-
+/* ここからスクロールのボタン */
 
 .back-to-top {
     position: fixed;
@@ -196,7 +194,7 @@ footer p{
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
   /* マウスを乗せた時に透明度を変える */
   .back-to-top:hover {
