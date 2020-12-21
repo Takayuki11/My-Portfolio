@@ -78,3 +78,6 @@ $("#other-btn").on("click", () =>{
 });
 
 showskills("front");
+
+
+
