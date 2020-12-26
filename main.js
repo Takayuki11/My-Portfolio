@@ -35,7 +35,6 @@ const scrollToElement = (id) => {
 // IDの取得
 const $element2 = $("h2");
 const $navigator = $(".each-nav");
-console.log($element2, $navigator);
 for (let i = 0; i <= $element2.length; i++){
     $($navigator[i]).on("click", () =>{
         const getId = $($element2[i]).attr("id");
@@ -43,41 +42,23 @@ for (let i = 0; i <= $element2.length; i++){
     });
 }
 
-const showskills = (skill) => {
+const showskills = (id) => {
     $(".front-end").removeClass("d-flex");
     $(".back-end").removeClass("d-flex");
     $(".others").removeClass("d-flex");
 
-    console.log(skill);
-    $("#" + skill).toggleClass("d-flex");
+    $("#" + id).toggleClass("d-flex");
 };
 
 
-// const $options = $(".nav-skill");
-// const $skills = $(".each-skill");
-// console.log($options, $skills);
-// for (let i = 0; i <= $options.lenght; i++){
-//     $($options[i]).on("click", () =>{
-//         const id = $($skills[i]).attr("id");
-//         console.log(id);
-//         showskills(id);
-//     });
-// }
-
-
-$("#front-btn").on("click", () =>{
-    showskills("front");
-});
-
-$("#back-btn").on("click", () =>{
-    showskills("back");
-});
-
-$("#other-btn").on("click", () =>{
-    showskills("others");
-});
+const $options = $(".nav-skill");
+const $skills = $(".each-skill");
+console.log($skills);
+for (let i = 0; i <= $options.length; i++){
+    $($options[i]).on("click", () =>{
+        const id = $($skills[i]).attr("id");
+        showskills(id);
+    });
+}
 
 showskills("front");
-
-
-
